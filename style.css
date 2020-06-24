@@ -1,0 +1,55 @@
+body{
+    box-sizing: border-box;
+}
+
+.pixel{
+    margin:0;
+    padding:0;
+	border:.25px solid #000;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.circle{
+    border-radius: 50%;
+    vertical-align: top;
+}
+
+.diamond{
+    transform: rotate(45deg);
+}
+
+.canvas{
+    width: 600px;
+    height: 600px;
+    margin-left: 45px;
+    margin-top: 25px;
+    padding: 0;
+    outline: 3px solid black;
+    border: none;
+    font-size: 0;
+}
+
+.canvas-starter-text{
+    font-size:xx-large;
+    opacity: 70%;
+}
+
+#drawing-color{
+    width:105px; 
+    margin-top: 10px
+}
+
+.color-select{
+    border: 2px solid #eee;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+h3{
+    text-decoration-line: underline;
+}
+
+form{
+    margin-top: 50px;
+}
